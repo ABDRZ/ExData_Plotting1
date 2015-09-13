@@ -13,7 +13,7 @@ plot4 <- function(){
   plot(wd1,hh$Sub_metering_1,type="l",main ="",xlab="",ylab = "Energy Sub metering")
   points(wd1,hh$Sub_metering_2,type="l",col="red")
   points(wd1,hh$Sub_metering_3,type="l",col="blue")
-  legend("topright",pch = "_",col = c("black","red","blue"),legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright",pch = "_",col = c("black","red","blue"),legend = c("Sub_metering_1  ","Sub_metering_2  ","Sub_metering_3  "))
   
   plot(wd1,hh$Global_reactive_power,type="l",main ="",xlab="datetime")
   

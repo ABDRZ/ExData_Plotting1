@@ -8,7 +8,7 @@ plot3 <- function(){
   plot(wd1,hh$Sub_metering_1,type="l",main ="",xlab="",ylab = "Energy Sub metering")
   points(wd1,hh$Sub_metering_2,type="l",col="red")
   points(wd1,hh$Sub_metering_3,type="l",col="blue")
-  legend("topright",pch = "_",col = c("black","red","blue"),legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright",pch = "_",col = c("black","red","blue"),legend = c("Sub_metering_1       ","Sub_metering_2       ","Sub_metering_3       "))
   dev.copy(png, file = "plot3.png")  ## Copy my plot to a PNG file
   dev.off()  ## close the PNG device!
   }
